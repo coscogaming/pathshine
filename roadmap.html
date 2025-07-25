@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Roadmap - PathShine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="index.html" class="text-2xl font-bold text-blue-600">PathShine</a>
+                    <span class="ml-4 text-gray-600">/ Python Roadmap</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div class="progress-container bg-gray-200 rounded-full h-2 w-32">
+                        <div id="overall-progress" class="bg-blue-600 h-2 rounded-full transition-all duration-300" style="width: 0%"></div>
+                    </div>
+                    <span id="progress-text" class="text-sm text-gray-600">0% Complete</span>
+                    <button id="reset-progress" class="text-red-600 hover:text-red-800 text-sm">Reset</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mx-auto px-4 py-8">
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">🐍 Python Learning Roadmap</h1>
+            <p class="text-xl text-gray-600">Master Python programming from beginner to advanced</p>
+        </div>
+
+        <!-- Roadmap Timeline -->
+        <div class="max-w-4xl mx-auto">
+            <div id="roadmap-container" class="roadmap-timeline">
+                <!-- Steps will be loaded here -->
+            </div>
+        </div>
+    </main>
+
+    <script src="js/progress.js"></script>
+    <script src="js/roadmap.js"></script>
+</body>
+</html>

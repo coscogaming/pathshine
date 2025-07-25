@@ -1,0 +1,231 @@
+{
+  "title": "Python Learning Roadmap",
+  "description": "Complete guide to mastering Python programming",
+  "totalSteps": 8,
+  "steps": [
+    {
+      "id": 1,
+      "title": "Learn the Basics",
+      "description": "Master Python syntax, variables, and fundamental programming concepts",
+      "estimatedTime": "1-2 weeks",
+      "difficulty": "Beginner",
+      "topics": ["Syntax & Variables", "Data Types", "Conditionals", "Loops", "Input/Output"],
+      "resources": [
+        {
+          "type": "video",
+          "title": "CodeWithHarry Python Tutorial",
+          "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9ah7DDtYtflgwMwpT3xmjXY9",
+          "duration": "Episodes 1-15"
+        },
+        {
+          "type": "article",
+          "title": "W3Schools Python Tutorial",
+          "url": "https://www.w3schools.com/python/",
+          "description": "Interactive tutorials with examples"
+        },
+        {
+          "type": "practice",
+          "title": "Python.org Beginner's Guide",
+          "url": "https://wiki.python.org/moin/BeginnersGuide",
+          "description": "Official Python beginner resources"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Data Structures",
+      "description": "Learn about lists, tuples, sets, dictionaries, and their operations",
+      "estimatedTime": "1-2 weeks",
+      "difficulty": "Beginner",
+      "topics": ["Lists & Tuples", "Sets & Dictionaries", "List Comprehensions", "String Operations"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "GeeksforGeeks Data Structures",
+          "url": "https://www.geeksforgeeks.org/python-data-structures/",
+          "description": "Comprehensive guide to Python data structures"
+        },
+        {
+          "type": "video",
+          "title": "Python Data Structures Deep Dive",
+          "url": "https://www.youtube.com/watch?v=R-HLU9Fl5ug",
+          "duration": "2 hours"
+        },
+        {
+          "type": "practice",
+          "title": "HackerRank Python Domain",
+          "url": "https://www.hackerrank.com/domains/python",
+          "description": "Practice problems for data structures"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Functions & Modules",
+      "description": "Master function creation, parameters, modules, and Python's built-in functions",
+      "estimatedTime": "1-2 weeks",
+      "difficulty": "Beginner",
+      "topics": ["Function Definition", "Parameters & Arguments", "*args & **kwargs", "Lambda Functions", "Modules & Packages"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Real Python - Functions",
+          "url": "https://realpython.com/defining-your-own-python-function/",
+          "description": "Comprehensive guide to Python functions"
+        },
+        {
+          "type": "video",
+          "title": "Python Functions Tutorial",
+          "url": "https://www.youtube.com/watch?v=9Os0o3wzS_I",
+          "duration": "1 hour"
+        },
+        {
+          "type": "practice",
+          "title": "Python Module of the Week",
+          "url": "https://pymotw.com/3/",
+          "description": "Explore Python's standard library"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Object-Oriented Programming",
+      "description": "Learn classes, objects, inheritance, and advanced OOP concepts",
+      "estimatedTime": "2-3 weeks",
+      "difficulty": "Intermediate",
+      "topics": ["Classes & Objects", "Inheritance", "Polymorphism", "Encapsulation", "Magic Methods"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Real Python OOP Tutorial",
+          "url": "https://realpython.com/python3-object-oriented-programming/",
+          "description": "Complete guide to OOP in Python"
+        },
+        {
+          "type": "video",
+          "title": "Python OOP Crash Course",
+          "url": "https://www.youtube.com/watch?v=ZDa-Z5JzLYM",
+          "duration": "90 minutes"
+        },
+        {
+          "type": "practice",
+          "title": "OOP Design Patterns",
+          "url": "https://python-patterns.guide/",
+          "description": "Python-specific design patterns"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "File Handling & Exceptions",
+      "description": "Learn to work with files and handle errors gracefully",
+      "estimatedTime": "1 week",
+      "difficulty": "Intermediate",
+      "topics": ["File I/O Operations", "Context Managers", "Exception Handling", "Try/Except/Finally", "Custom Exceptions"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Python File Handling Guide",
+          "url": "https://realpython.com/working-with-files-in-python/",
+          "description": "Complete file handling tutorial"
+        },
+        {
+          "type": "video",
+          "title": "Exception Handling in Python",
+          "url": "https://www.youtube.com/watch?v=NIWwJbo-9_8",
+          "duration": "45 minutes"
+        },
+        {
+          "type": "practice",
+          "title": "Python Exceptions Documentation",
+          "url": "https://docs.python.org/3/tutorial/errors.html",
+          "description": "Official documentation on exceptions"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Libraries & APIs",
+      "description": "Explore popular Python libraries and learn to work with APIs",
+      "estimatedTime": "2-3 weeks",
+      "difficulty": "Intermediate",
+      "topics": ["Requests Library", "JSON Handling", "Regular Expressions", "OS & Sys Modules", "DateTime"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Python Requests Tutorial",
+          "url": "https://realpython.com/python-requests/",
+          "description": "Master HTTP requests in Python"
+        },
+        {
+          "type": "video",
+          "title": "Working with APIs in Python",
+          "url": "https://www.youtube.com/watch?v=tb8gHvYlCFs",
+          "duration": "2 hours"
+        },
+        {
+          "type": "practice",
+          "title": "JSONPlaceholder API",
+          "url": "https://jsonplaceholder.typicode.com/",
+          "description": "Free API for testing and prototyping"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Practice Projects",
+      "description": "Build hands-on projects to reinforce your learning",
+      "estimatedTime": "2-4 weeks",
+      "difficulty": "Intermediate",
+      "topics": ["Calculator App", "To-Do List CLI", "Quiz Application", "File Organizer", "Weather App"],
+      "resources": [
+        {
+          "type": "project",
+          "title": "Python Project Ideas",
+          "url": "https://realpython.com/intermediate-python-project-ideas/",
+          "description": "Collection of intermediate Python projects"
+        },
+        {
+          "type": "video",
+          "title": "Python Projects Playlist",
+          "url": "https://www.youtube.com/playlist?list=PLjVLYmrlmjGfAUdLiF2bQ-0l8SwNZ1sBl",
+          "duration": "Multiple projects"
+        },
+        {
+          "type": "practice",
+          "title": "GitHub Python Projects",
+          "url": "https://github.com/topics/python-projects",
+          "description": "Browse open-source Python projects"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Web Development",
+      "description": "Introduction to web development with Flask or Django",
+      "estimatedTime": "3-4 weeks",
+      "difficulty": "Advanced",
+      "topics": ["Flask Basics", "Routing & Templates", "Forms & Validation", "Database Integration", "Deployment"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Flask Mega-Tutorial",
+          "url": "https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world",
+          "description": "Comprehensive Flask tutorial series"
+        },
+        {
+          "type": "video",
+          "title": "Flask Course for Beginners",
+          "url": "https://www.youtube.com/watch?v=Z1RJmh_OqeA",
+          "duration": "4 hours"
+        },
+        {
+          "type": "practice",
+          "title": "Django Official Tutorial",
+          "url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/",
+          "description": "Official Django getting started guide"
+        }
+      ]
+    }
+  ]
+}

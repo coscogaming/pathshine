@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PathShine - Learn Anything Step-by-Step</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-blue-600">PathShine</h1>
+                </div>
+                <div class="flex gap-6">
+                    <a href="index.html" class="text-blue-600 font-medium">Home</a>
+                    <a href="about.html" class="text-gray-600 hover:text-blue-600">About</a>
+                    <button id="theme-toggle" class="p-2 rounded-lg bg-gray-100 hover:bg-gray-200">
+                        🌙
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="container mx-auto px-4 py-16">
+        <div class="text-center mb-16">
+            <h1 class="text-5xl font-bold text-gray-800 mb-6">
+                Learn Anything <span class="text-blue-600">Step-by-Step</span>
+            </h1>
+            <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                Master new skills with structured roadmaps, track your progress, and learn at your own pace
+            </p>
+        </div>
+
+        <!-- Learning Paths -->
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-semibold text-center mb-8 text-gray-800">Choose Your Learning Path</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Python Card -->
+                <div class="learning-card bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-2xl">🐍</span>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-800 mb-2">Python</h3>
+                        <p class="text-gray-600 mb-4">Complete Python roadmap from basics to advanced projects</p>
+                        <div class="mb-4">
+                            <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">8 Steps</span>
+                            <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full ml-2">Beginner Friendly</span>
+                        </div>
+                        <a href="roadmap.html" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium">
+                            Start Learning
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Coming Soon Cards -->
+                <div class="learning-card bg-gray-100 rounded-xl shadow-lg p-6 opacity-60">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-2xl">⚛️</span>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-600 mb-2">React</h3>
+                        <p class="text-gray-500 mb-4">Master modern React development</p>
+                        <span class="inline-block bg-gray-200 text-gray-600 px-6 py-3 rounded-lg font-medium">
+                            Coming Soon
+                        </span>
+                    </div>
+                </div>
+
+                <div class="learning-card bg-gray-100 rounded-xl shadow-lg p-6 opacity-60">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-2xl">📊</span>
+                        </div>
+                        <h3 class="text-2xl font-semibold text-gray-600 mb-2">Data Science</h3>
+                        <p class="text-gray-500 mb-4">Learn data analysis and machine learning</p>
+                        <span class="inline-block bg-gray-200 text-gray-600 px-6 py-3 rounded-lg font-medium">
+                            Coming Soon
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="mt-20">
+            <h2 class="text-3xl font-semibold text-center mb-12 text-gray-800">Why Choose PathShine?</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="text-center">
+                    <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <span class="text-white text-xl">📋</span>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">Structured Learning</h3>
+                    <p class="text-gray-600">Follow step-by-step roadmaps designed by experts</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <span class="text-white text-xl">📈</span>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">Progress Tracking</h3>
+                    <p class="text-gray-600">Monitor your learning journey and stay motivated</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mx-auto mb-4">
+                        <span class="text-white text-xl">🎯</span>
+                    </div>
+                    <h3 class="font-semibold text-lg mb-2">Quality Resources</h3>
+                    <p class="text-gray-600">Curated materials from trusted sources</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
