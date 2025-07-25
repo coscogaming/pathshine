@@ -1,0 +1,215 @@
+{
+  "title": "JavaScript Learning Roadmap",
+  "description": "Complete guide to mastering JavaScript programming",
+  "totalSteps": 10,
+  "steps": [
+    {
+      "id": 1,
+      "title": "JavaScript Fundamentals",
+      "description": "Learn basic syntax, variables, data types, and operators",
+      "estimatedTime": "1-2 weeks",
+      "difficulty": "Beginner",
+      "topics": ["Variables & Constants", "Data Types", "Operators", "Conditionals", "Loops"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "MDN JavaScript Guide",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+          "description": "Comprehensive JavaScript documentation"
+        },
+        {
+          "type": "video",
+          "title": "JavaScript Crash Course",
+          "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c",
+          "duration": "1.5 hours"
+        },
+        {
+          "type": "practice",
+          "title": "FreeCodeCamp JavaScript",
+          "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+          "description": "Interactive JavaScript exercises"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Functions & Scope",
+      "description": "Master function declarations, expressions, arrow functions, and scope",
+      "estimatedTime": "1-2 weeks",
+      "difficulty": "Beginner",
+      "topics": ["Function Declarations", "Arrow Functions", "Scope & Closures", "Higher-Order Functions"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "JavaScript Functions Guide",
+          "url": "https://javascript.info/function-basics",
+          "description": "Detailed guide to JavaScript functions"
+        },
+        {
+          "type": "video",
+          "title": "JavaScript Functions Tutorial",
+          "url": "https://www.youtube.com/watch?v=N8ap4k_1QEQ",
+          "duration": "45 minutes"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Objects & Arrays",
+      "description": "Work with objects, arrays, and their methods",
+      "estimatedTime": "2 weeks",
+      "difficulty": "Beginner",
+      "topics": ["Object Literals", "Array Methods", "Destructuring", "Spread Operator"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "JavaScript Objects",
+          "url": "https://javascript.info/object",
+          "description": "Complete guide to JavaScript objects"
+        },
+        {
+          "type": "practice",
+          "title": "Array Method Practice",
+          "url": "https://www.w3schools.com/js/js_array_methods.asp",
+          "description": "Practice JavaScript array methods"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "DOM Manipulation",
+      "description": "Learn to interact with and modify web pages",
+      "estimatedTime": "2-3 weeks",
+      "difficulty": "Intermediate",
+      "topics": ["DOM Selection", "Event Handling", "Element Manipulation", "Event Delegation"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "DOM Manipulation Guide",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+          "description": "Complete DOM manipulation reference"
+        },
+        {
+          "type": "video",
+          "title": "DOM Crash Course",
+          "url": "https://www.youtube.com/watch?v=0ik6X4DJKCc",
+          "duration": "1 hour"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Asynchronous JavaScript",
+      "description": "Master promises, async/await, and handling asynchronous operations",
+      "estimatedTime": "2-3 weeks",
+      "difficulty": "Intermediate",
+      "topics": ["Callbacks", "Promises", "Async/Await", "Fetch API", "Error Handling"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Async JavaScript Guide",
+          "url": "https://javascript.info/async",
+          "description": "Comprehensive async JavaScript tutorial"
+        },
+        {
+          "type": "video",
+          "title": "Async JavaScript Tutorial",
+          "url": "https://www.youtube.com/watch?v=PoRJizFvM7s",
+          "duration": "1.5 hours"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "ES6+ Features",
+      "description": "Learn modern JavaScript features and syntax",
+      "estimatedTime": "2 weeks",
+      "difficulty": "Intermediate",
+      "topics": ["Let/Const", "Template Literals", "Modules", "Classes", "Map/Set"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "ES6 Features Guide",
+          "url": "https://github.com/lukehoban/es6features",
+          "description": "Complete ES6 features overview"
+        },
+        {
+          "type": "video",
+          "title": "Modern JavaScript Features",
+          "url": "https://www.youtube.com/watch?v=nZ1DMMsyVyI",
+          "duration": "2 hours"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "JavaScript Projects",
+      "description": "Build practical projects to reinforce your learning",
+      "estimatedTime": "3-4 weeks",
+      "difficulty": "Intermediate",
+      "topics": ["Todo App", "Weather App", "Quiz Game", "Calculator", "API Integration"],
+      "resources": [
+        {
+          "type": "project",
+          "title": "JavaScript30",
+          "url": "https://javascript30.com/",
+          "description": "30 vanilla JavaScript projects"
+        },
+        {
+          "type": "video",
+          "title": "JavaScript Projects Course",
+          "url": "https://www.youtube.com/watch?v=3PHXvlpOkf4",
+          "duration": "8 hours"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Object-Oriented Programming",
+      "description": "Learn OOP concepts in JavaScript",
+      "estimatedTime": "2 weeks",
+      "difficulty": "Intermediate",
+      "topics": ["Constructor Functions", "Prototypes", "Classes", "Inheritance", "Encapsulation"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "JavaScript OOP Guide",
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS",
+          "description": "Object-oriented JavaScript tutorial"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Testing & Debugging",
+      "description": "Learn to test and debug JavaScript applications",
+      "estimatedTime": "2 weeks",
+      "difficulty": "Advanced",
+      "topics": ["Unit Testing", "Jest", "Debugging Tools", "Error Handling", "Performance"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "JavaScript Testing Guide",
+          "url": "https://jestjs.io/docs/getting-started",
+          "description": "Jest testing framework documentation"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Advanced Concepts",
+      "description": "Explore advanced JavaScript concepts and patterns",
+      "estimatedTime": "3-4 weeks",
+      "difficulty": "Advanced",
+      "topics": ["Design Patterns", "Performance Optimization", "Memory Management", "Web APIs"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Advanced JavaScript Concepts",
+          "url": "https://github.com/leonardomso/33-js-concepts",
+          "description": "33 JavaScript concepts every developer should know"
+        }
+      ]
+    }
+  ]
+}

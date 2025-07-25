@@ -1,0 +1,147 @@
+{
+  "title": "React Learning Roadmap",
+  "description": "Master modern React development from basics to advanced patterns",
+  "totalSteps": 8,
+  "steps": [
+    {
+      "id": 1,
+      "title": "React Fundamentals",
+      "description": "Learn JSX, components, and basic React concepts",
+      "estimatedTime": "1-2 weeks",
+      "difficulty": "Beginner",
+      "topics": ["JSX", "Components", "Props", "State", "Event Handling"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "React Official Tutorial",
+          "url": "https://react.dev/learn",
+          "description": "Official React documentation and tutorial"
+        },
+        {
+          "type": "video",
+          "title": "React Crash Course",
+          "url": "https://www.youtube.com/watch?v=w7ejDZ8SWv8",
+          "duration": "1.5 hours"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Hooks",
+      "description": "Master React Hooks for state management and side effects",
+      "estimatedTime": "2-3 weeks",
+      "difficulty": "Intermediate",
+      "topics": ["useState", "useEffect", "useContext", "useReducer", "Custom Hooks"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "React Hooks Guide",
+          "url": "https://react.dev/reference/react",
+          "description": "Complete React Hooks reference"
+        },
+        {
+          "type": "video",
+          "title": "React Hooks Tutorial",
+          "url": "https://www.youtube.com/watch?v=TNhaISOUy6Q",
+          "duration": "2 hours"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Component Patterns",
+      "description": "Learn advanced component patterns and composition",
+      "estimatedTime": "2 weeks",
+      "difficulty": "Intermediate",
+      "topics": ["Higher-Order Components", "Render Props", "Compound Components", "Context API"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "React Patterns",
+          "url": "https://reactpatterns.com/",
+          "description": "Common React component patterns"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "State Management",
+      "description": "Learn global state management with Redux and Context",
+      "estimatedTime": "2-3 weeks",
+      "difficulty": "Intermediate",
+      "topics": ["Redux", "Redux Toolkit", "Context API", "Zustand", "State Design"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "Redux Toolkit Guide",
+          "url": "https://redux-toolkit.js.org/tutorials/quick-start",
+          "description": "Modern Redux with Redux Toolkit"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Routing",
+      "description": "Implement client-side routing with React Router",
+      "estimatedTime": "1-2 weeks",
+      "difficulty": "Intermediate",
+      "topics": ["React Router", "Dynamic Routing", "Protected Routes", "Navigation"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "React Router Guide",
+          "url": "https://reactrouter.com/en/main/start/tutorial",
+          "description": "Complete React Router tutorial"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Forms & Validation",
+      "description": "Handle forms and validation in React applications",
+      "estimatedTime": "1-2 weeks",
+      "difficulty": "Intermediate",
+      "topics": ["Controlled Components", "Form Libraries", "Validation", "React Hook Form"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "React Hook Form",
+          "url": "https://react-hook-form.com/get-started",
+          "description": "Performant forms with easy validation"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Testing",
+      "description": "Test React components and applications",
+      "estimatedTime": "2 weeks",
+      "difficulty": "Advanced",
+      "topics": ["React Testing Library", "Jest", "Component Testing", "Integration Testing"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "React Testing Library",
+          "url": "https://testing-library.com/docs/react-testing-library/intro/",
+          "description": "Simple and complete testing utilities"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Performance & Deployment",
+      "description": "Optimize React apps and deploy to production",
+      "estimatedTime": "2-3 weeks",
+      "difficulty": "Advanced",
+      "topics": ["Performance Optimization", "Code Splitting", "Build Process", "Deployment"],
+      "resources": [
+        {
+          "type": "article",
+          "title": "React Performance Guide",
+          "url": "https://react.dev/learn/render-and-commit",
+          "description": "Optimize React application performance"
+        }
+      ]
+    }
+  ]
+}

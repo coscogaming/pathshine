@@ -1,7 +1,12 @@
 class ProgressManager {
-    constructor() {
-        this.storageKey = 'pathshine-python-progress';
+    constructor(language = 'python') {
+        this.language = language;
+        this.storageKey = `pathshine-${language}-progress`;
         this.progress = this.loadProgress();
+    }
+    
+}
+
     }
 
     loadProgress() {

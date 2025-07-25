@@ -2,11 +2,19 @@ class RoadmapManager {
     constructor() {
         this.roadmapData = null;
         this.progressManager = new ProgressManager();
+        this.languageManager = new LanguageManager();
+        this.currentLanguage = this.getLanguageFromURL() || 'python';
         this.init();
+    }
+
+    getLanguageFromURL() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('lang');
     }
 
     async init() {
         await this.loadRoadmap();
+        this.updatePageTitle();
         this.renderRoadmap();
         this.updateOverallProgress();
         this.setupEventListeners();
@@ -14,11 +22,39 @@ class RoadmapManager {
 
     async loadRoadmap() {
         try {
-            const response = await fetch('./data/python-roadmap.json');
+            const language = this.languageManager.getLanguageById(this.currentLanguage);
+            if (!language || !language.available) {
+                throw new Error('Language not available');
+            }
+
+            const response = await fetch(`./data/${language.dataFile}`);
+            if (!response.ok) {
+                throw new Error('Failed to load roadmap data');
+            }
+            
             this.roadmapData = await response.json();
         } catch (error) {
             console.error('Failed to load roadmap data:', error);
-            this.showError('Failed to load roadmap. Please refresh the page.');
+            this.showError('Failed to load roadmap. Please try a different language or refresh the page.');
+        }
+    }
+
+    updatePageTitle() {
+        const language = this.languageManager.getLanguageById(this.currentLanguage);
+        if (language) {
+            document.title = `${language.name} Roadmap - PathShine`;
+            
+            // Update breadcrumb
+            const breadcrumb = document.querySelector('nav .text-gray-600');
+            if (breadcrumb) {
+                breadcrumb.textContent = `/ ${language.name} Roadmap`;
+            }
+
+            // Update header
+            const header = document.querySelector('main h1');
+            if (header) {
+                header.innerHTML = `${language.icon} ${language.name} Learning Roadmap`;
+            }
         }
     }
 
@@ -28,7 +64,6 @@ class RoadmapManager {
 
         container.innerHTML = this.roadmapData.steps.map(step => this.renderStep(step)).join('');
     }
-
     renderStep(step) {
         const status = this.progressManager.getStepStatus(step.id);
         const statusIcon = this.getStatusIcon(status);
