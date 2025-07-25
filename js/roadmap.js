@@ -1,9 +1,9 @@
 class RoadmapManager {
     constructor() {
         this.roadmapData = null;
-        this.progressManager = new ProgressManager();
         this.languageManager = new LanguageManager();
         this.currentLanguage = this.getLanguageFromURL() || 'python';
+        this.progressManager = new ProgressManager(this.currentLanguage);
         this.init();
     }
 
@@ -55,6 +55,12 @@ class RoadmapManager {
             if (header) {
                 header.innerHTML = `${language.icon} ${language.name} Learning Roadmap`;
             }
+
+            // Update description
+            const description = document.querySelector('main p');
+            if (description) {
+                description.textContent = this.roadmapData?.description || `Master ${language.name} from beginner to advanced`;
+            }
         }
     }
 
@@ -64,6 +70,7 @@ class RoadmapManager {
 
         container.innerHTML = this.roadmapData.steps.map(step => this.renderStep(step)).join('');
     }
+
     renderStep(step) {
         const status = this.progressManager.getStepStatus(step.id);
         const statusIcon = this.getStatusIcon(status);

@@ -79,8 +79,7 @@ class LanguageManager {
                 description: 'Server-side JavaScript development',
                 difficulty: 'Intermediate',
                 steps: 7,
-                available: true,
-                dataFile: 'nodejs-roadmap.json'
+                available: false
             },
             {
                 id: 'data-science',
@@ -89,8 +88,7 @@ class LanguageManager {
                 description: 'Learn data analysis, visualization, and machine learning',
                 difficulty: 'Advanced',
                 steps: 9,
-                available: true,
-                dataFile: 'data-science-roadmap.json'
+                available: false
             },
             {
                 id: 'web-dev',
@@ -99,34 +97,6 @@ class LanguageManager {
                 description: 'Full-stack web development fundamentals',
                 difficulty: 'Beginner',
                 steps: 12,
-                available: true,
-                dataFile: 'web-dev-roadmap.json'
-            },
-            {
-                id: 'java',
-                name: 'Java',
-                icon: '☕',
-                description: 'Enterprise Java development',
-                difficulty: 'Intermediate',
-                steps: 8,
-                available: false
-            },
-            {
-                id: 'cpp',
-                name: 'C++',
-                icon: '⚙️',
-                description: 'System programming and competitive coding',
-                difficulty: 'Advanced',
-                steps: 9,
-                available: false
-            },
-            {
-                id: 'flutter',
-                name: 'Flutter',
-                icon: '📱',
-                description: 'Cross-platform mobile app development',
-                difficulty: 'Intermediate',
-                steps: 7,
                 available: false
             }
         ];
@@ -134,10 +104,6 @@ class LanguageManager {
 
     getLanguages() {
         return this.languages;
-    }
-
-    getAvailableLanguages() {
-        return this.languages.filter(lang => lang.available);
     }
 
     getLanguageById(id) {

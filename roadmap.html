@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python Roadmap - PathShine</title>
+    <title>Roadmap - PathShine</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,7 +14,7 @@
             <div class="flex justify-between items-center">
                 <div class="flex items-center">
                     <a href="index.html" class="text-2xl font-bold text-blue-600">PathShine</a>
-                    <span class="ml-4 text-gray-600">/ Python Roadmap</span>
+                    <span class="ml-4 text-gray-600">/ Learning Roadmap</span>
                 </div>
                 <div class="flex items-center gap-4">
                     <div class="progress-container bg-gray-200 rounded-full h-2 w-32">
@@ -22,6 +22,12 @@
                     </div>
                     <span id="progress-text" class="text-sm text-gray-600">0% Complete</span>
                     <button id="reset-progress" class="text-red-600 hover:text-red-800 text-sm">Reset</button>
+                    
+                    <!-- Theme Toggle -->
+                    <div id="theme-toggle" class="theme-toggle">
+                        <span class="theme-icon sun">☀️</span>
+                        <span class="theme-icon moon">🌙</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -30,8 +36,8 @@
     <main class="container mx-auto px-4 py-8">
         <!-- Header -->
         <div class="text-center mb-12">
-            <h1 class="text-4xl font-bold text-gray-800 mb-4">🐍 Python Learning Roadmap</h1>
-            <p class="text-xl text-gray-600">Master Python programming from beginner to advanced</p>
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">🐍 Learning Roadmap</h1>
+            <p class="text-xl text-gray-600">Master programming from beginner to advanced</p>
         </div>
 
         <!-- Roadmap Timeline -->
@@ -43,6 +49,7 @@
     </main>
 
     <script src="js/progress.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/roadmap.js"></script>
 </body>
 </html>
