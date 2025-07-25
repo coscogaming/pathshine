@@ -4,10 +4,6 @@ class ProgressManager {
         this.storageKey = `pathshine-${language}-progress`;
         this.progress = this.loadProgress();
     }
-    
-}
-
-    }
 
     loadProgress() {
         const saved = localStorage.getItem(this.storageKey);
